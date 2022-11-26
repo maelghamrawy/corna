@@ -17,7 +17,7 @@ const NavBar = () => {
             <nav className="Nav navbar navbar-expand-lg navbar-light bg-primary ">
                 <div className=" container ">
 
-                    <img className="" style={{ width: "100px" }} src={logo} href="logo" />
+                    <img className="" style={{ width: "100px" }} src={logo} alt="logo" />
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
