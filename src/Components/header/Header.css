@@ -1,0 +1,83 @@
+
+body {
+    font-family: 'Lato';
+    background-image: url("../image/shape-a.png");
+  }
+  
+  .logo{
+    height: 100px;
+    
+  }
+  
+  .left {
+    padding-top: 100px;
+    width: 50%;
+    color: blue;
+  }
+  
+  .right {
+    padding-top: 80px;
+    width: 50%;
+  }
+  
+  .bgImage {
+    background-image: url("../image/header-a.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .logoCorona {
+    display: flex;
+    align-items: center;
+    line-height: 25px;
+    margin-bottom: 70px;
+    font-weight: 900;
+  }
+  
+  .leftP {
+    font-size: 90px;
+  }
+  
+  .rightP {
+    font-size: 25px;
+  }
+  
+  .covidp {
+    color: red;
+    line-height: 25px;
+  }
+  
+  .covidIfno{
+    color: darkslategrey;
+    margin-bottom: 70px;
+    line-height: 30px;
+  }
+  
+  
+  .buttonInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+  
+  .buttonInfo .protect {
+    margin-right: 50px;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
+    border-radius: 15px;
+    font-size: 20px;
+  }
+  
+  .covidInfo {
+    display: flex;
+  }
+  
+  .covidInfo div {
+    margin-right: 20px;
+    color: darkslategrey;
+    font-weight: 800;
+  }

@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.parent{ 
+  height: 100vh;
+  
+}
+.aboutCorona{
+  display: flex;
+ padding-top: 200px;
+ 
+}
+.leftAbout{
+  width: 50%;
+  line-height: 2rem;
+  
+}
+
+.leftAbout span{
+  font-weight: bold;
+}
+.rightAbout{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ text-align: center;
+}
+.list-group-item{
+  color: blue;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+

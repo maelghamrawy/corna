@@ -1,0 +1,36 @@
+.card{
+    margin-right: 30px;
+    /* border: none; */
+}
+.parentSpread{
+   background-color:#F7F9FE;
+}
+
+.childSpread{
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+ .childSpread p:nth-of-type(2){
+    color: white;
+    background-color: #2A81EA;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+/* .card{
+    position: relative;
+}
+.card-img-top{
+    width: 100px;
+    height: 100px;
+   position:absolute;
+   border-radius: 50%;
+top:-40px;
+left: 70%;
+
+} */

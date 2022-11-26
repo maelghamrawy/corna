@@ -1,0 +1,65 @@
+.parentsymptoms {
+    
+}
+
+.childsymptoms {
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+/* .childsymptoms p:nth-of-type(2) {
+    color: white;
+    background-color: blue;
+    padding: 15px;
+    margin-top: 110px;
+    border-radius: 25px;
+} */
+
+.cards {
+    position: relative;
+    margin-right: 30px;
+    margin-top: 100px;
+    
+}
+
+.cards p {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 60px;
+}
+
+.cards h5 {
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+}
+
+.cardimg {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    border-radius: 50%;
+    top: -40px;
+    left: 70%;
+}
+
+.footers{
+    width: 100%;
+    display: flex;
+    margin-top: 110px;
+}
+.footerp{
+    width: 50%;
+
+}
+ .footerask{
+    color: white;
+    background-color: #2A81EA;
+    padding: 10px;
+    border-radius: 25px;
+    margin-left: 150px;
+}

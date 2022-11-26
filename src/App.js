@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import NavBar from "./Components/NavBar.js"
+import Header from './Components/header/Header';
+import NavBar from "./Components/Navbar/NavBar"
 
 function App() {
   return (
     <>
      <NavBar/>
-     <h1 className='h1'>fdsf</h1>
+    
     </>
  
 
