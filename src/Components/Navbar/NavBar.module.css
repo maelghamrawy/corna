@@ -2,11 +2,16 @@
     margin-right: 50px;
 } */
 
-.active {
-    font-weight: bold;
-    color: red;
+.navbar-light .navbar-nav .nav-link.active.text-secondarys {
+  font-weight: bold;
+  color: red !important;
 }
 .text-secondary {
-    color: green
+  color: green;
 }
 
+Nav {
+  position: fixed !important;
+  width: 100%;
+  z-index: 1;
+}
