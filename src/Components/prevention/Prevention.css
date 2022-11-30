@@ -1,26 +1,20 @@
-.parentPrevention {
-   
-    background-color: #F7F9FE;
+.parentPrevention{
+    height: 100vh;
+
 }
 
+
 .childPrevention {
-    padding-top: 180px;
+    /* padding-top: 180px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 100vh;
 }
 
-
-
 .card {
-  
     margin-right: 30px;
     margin-top: 100px;
-    
-    
-    
 }
 
 .cards p {
@@ -45,12 +39,13 @@
     margin-top: 20px;
 }
 
-.footerPrevention{
+.footerPrevention {
     width: 100%;
     display: flex;
     margin-top: 110px;
 }
-.prevenionp{
+
+.prevenionp {
     width: 50%;
     /* margin-left: 20px; */
     display: flex;
@@ -58,7 +53,8 @@
     justify-content: center;
 
 }
-.prevenionask{
+
+.prevenionask {
     /* width: 50%; */
     display: flex;
     align-items: center;

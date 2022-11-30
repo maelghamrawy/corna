@@ -1,51 +1,58 @@
 import React from "react";
 import logo from "../image/logo.webp";
 import { Link } from "react-scroll";
-import styles from "./NavBar.module.css";
+// import styles from "./NavBar.module.css";
+import "./NavBar.css";
 import Header from "../header/Header.js";
 import About from "../About/About";
 import Spread from "../Spread/Spread";
 import Symptoms from "../Symptoms/Symptoms";
 import Prevention from "../prevention/Prevention";
 import Protect from "../Protect/Protect";
-
+import Treatment from "../Treatment/Treatment";
+import News from "../News/News";
 const NavBar = () => {
+
+
   return (
     <>
-      <nav className="Nav navbar navbar-expand-lg navbar-light bg-primary">
+      <nav className=" navbar navbar-expand-lg navbar-light bg-light">
         <div className=" container">
-          <img className="" style={{ width: "100px" }} src={logo} alt="logo" />
-
+        <img className="" style={{ width: "100px" }} src={logo} alt="logo" />
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
-          >
+          > 
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className=" navbar-nav  justify-content-round">
-              <li className="nav-item">
+          <div className="collapse justify-content-evenly navbar-collapse">
+
+            <ul className="navbar-nav"   id="navbarNav">
+              <li className="nav-item ">  
                 <Link
-                  className="nav-link  text-secondary"
+                  className="nav-link  "
                   aria-current="page"
                   href="home"
                   activeClass="active"
                   to="Home"
+                  spy={true}
                 >
                   Home
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
-                  className="nav-link text-secondary"
+                  className="nav-link "
                   href="home"
                   activeClass="active"
+                  spy={true}
+
                   to="AboutCorona"
                 >
                   AboutCorona
@@ -53,20 +60,22 @@ const NavBar = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  className="nav-link text-secondary"
+                  className="nav-link "
                   href="home"
                   activeClass="active"
                   to="Spread"
+                  spy={true}
+
                 >
                   Spread
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
-                  className="nav-link  text-secondary "
+                  className="nav-link   "
                   href="home"
                   activeClass="active"
-                  spy
+                  spy={true}
                   to="Prevention"
                 >
                   Prevention
@@ -74,48 +83,47 @@ const NavBar = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  className="nav-link  text-secondary"
+                  className="nav-link  "
                   href="home"
                   activeClass="active"
                   smooth
-                  spy
-                  to="Treatment"
+                  spy={true}
+                  to="treatment"
                 >
                   Treatment
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
-                  className="nav-link  text-secondary"
+                  className="nav-link  "
                   href="home"
                   activeClass="active"
                   smooth
-                  spy
+                  spy = {true}
                   to="FAQ"
                 >
                   FAQ
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link
-                  className="nav-link  text-secondary"
+                  className="nav-link  "
                   href="home"
                   activeClass="active"
-                  smooth
-                  spy
+                  spy  = {true}
                   to="News"
                 >
                   News
                 </Link>
               </li>
-              <li className="nav-item bg-primary rounded-pill p-1 ">
+              <li className="test nav-item  ">
                 <Link
-                  className="nav-link  text-secondary "
+                  className="nav-link  did "
                   href="home"
                   activeClass="active"
-                  smooth
-                  spy
-                  to="Do"
+
+                  spy ={true}
+                  to="News"
                 >
                   Do $ Don't
                 </Link>
@@ -146,6 +154,14 @@ const NavBar = () => {
       <section id="Protect">
         {" "}
         <Protect />
+      </section>
+      <section id="treatment">
+        {" "}
+        <Treatment/>
+      </section>
+      <section id="News">
+        {" "}
+        <News/>
       </section>
     </>
   );

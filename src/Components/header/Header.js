@@ -18,6 +18,10 @@ const list = [
 
 function Header() {
   return (
+    <>
+    
+    <div className="parentAbout">
+
     <div class="container d-flex pt-5 ">
       <div class="left">
         <div class="logoCorona">
@@ -58,6 +62,12 @@ function Header() {
         <div class="bgImage"></div>
       </div>
     </div>
+
+    </div>
+
+  
+
+    </>
   );
 }
 export default Header;

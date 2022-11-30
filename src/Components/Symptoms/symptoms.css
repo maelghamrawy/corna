@@ -1,5 +1,6 @@
 .parentsymptoms {
-    
+    height: 100vh;
+    /* margin-bottom: 100px; */
 }
 
 .childsymptoms {
@@ -8,16 +9,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 100vh;
 }
-
-/* .childsymptoms p:nth-of-type(2) {
-    color: white;
-    background-color: blue;
-    padding: 15px;
-    margin-top: 110px;
-    border-radius: 25px;
-} */
 
 .cards {
     position: relative;
