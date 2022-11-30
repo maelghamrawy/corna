@@ -1,0 +1,59 @@
+.parentTreatment {
+    height: 100vh;
+    background-color: #2766BB;
+    background-image: url("../image/shape-a.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 261px;
+}
+
+.childTreatment {
+    width: 80%;
+    height: 70vh;
+
+    display: flex;
+}
+
+.leftTreatment {
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.leftTreatment h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.leftTreatment h4  {
+
+    color: white;
+}
+
+.leftTreatment p {
+
+    color: white;
+}
+
+.rightTreatment {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardt {
+    width: 60%;
+    height: 80%;
+    background-color: #1B47A1;
+    margin: auto;
+    padding: 20px;
+}
+
+.cardt h6{
+    color: white; 
+}
+.cardt p{
+    color: white; 
+}

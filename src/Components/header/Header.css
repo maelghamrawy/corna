@@ -1,7 +1,11 @@
 
 body {
-    font-family: 'Lato';
+    /* font-family: 'Lato'; */
+  }
+  .parentAbout{
     background-image: url("../image/shape-a.png");
+    background-size: cover;
+
   }
   
   .logo{

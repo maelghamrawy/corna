@@ -18,7 +18,7 @@ function Prevention() {
 
 
                     <div className="card-group  col-sm-2 col-md-6 col-lg-12">
-                        <div className="card  rounded"  >
+                        <div className="card  rounded" style={{background: "#F7F9FE", border:"none"}}  >
                             <img src={advicea} className="cardimg1" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">fdfds</h5>

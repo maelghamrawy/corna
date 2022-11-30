@@ -1,34 +1,40 @@
-body{
+body {
   margin: 0;
   padding: 0;
+  background-color: #F7F9FE;
+
 }
 
-.parent{ 
+.parent {
   height: 100vh;
-  
+
 }
-.aboutCorona{
+
+.aboutCorona {
   display: flex;
- padding-top: 200px;
- 
+  padding-top: 200px;
+
 }
-.leftAbout{
+
+.leftAbout {
   width: 50%;
   line-height: 2rem;
-  
+
 }
 
-.leftAbout span{
+.leftAbout span {
   font-weight: bold;
 }
-.rightAbout{
+
+.rightAbout {
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
- text-align: center;
+  text-align: center;
 }
-.list-group-item{
+
+.list-group-item {
   color: blue;
   height: 60px;
   text-align: center;
@@ -37,4 +43,3 @@ body{
   align-items: center;
   cursor: pointer;
 }
-

@@ -1,0 +1,95 @@
+.parentDo {
+    height: 100vh;
+    background-color: #F7F9FE;
+}
+
+.childDo {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.childDo h5{
+    color: #959EE9;
+}
+.childDo h1{
+    color: #4C618D;
+}
+.pra{
+    margin-top: 20px;
+}
+
+.doImage {
+    display: flex;
+    height: 60%;
+    margin-top: 40px;
+}
+
+.rightImage {
+    width: 25%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.rightCol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.rightCol p{
+  color: #096BE7;
+  margin-bottom: 50px;
+}
+
+.rightCol img {
+    height: 80px;
+    border: 2px solid red;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.centerImage {
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.centerImage img {
+    width: 100%;
+    height: 100%;
+  
+}
+
+.leftImage {
+    width: 25%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.leftCol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.leftCol img {
+    
+    height: 80px;
+    border: 2px solid green;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+.leftCol p{
+    color: #096BE7;
+    margin-bottom: 50px;
+  }
+  

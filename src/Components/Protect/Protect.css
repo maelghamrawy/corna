@@ -1,5 +1,5 @@
 .parentProtect {
-    height:150vh;
+    height:100vh;
     background-color: #F7F9FE;
     display: flex;
     align-items: center;
@@ -18,8 +18,6 @@
     width: 100 wh;
     height: 70vh;
     margin-top: -500px;
-   
-
 }
 
 .leftProtect{
